@@ -1,6 +1,6 @@
 # facebook_ui_clone
 
-A new Flutter project.
+2020 version of Facebook's home screen clone
 
 ## Getting Started
 
