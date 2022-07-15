@@ -16,3 +16,5 @@ const prithviRajsPost =
     'https://www.firstpost.com/wp-content/uploads/2022/04/Prithviraj-2.jpg?impolicy=website&width=320&height=180';
 const nivinsPost =
     'https://1.bp.blogspot.com/-e2RFIMzV6DY/Xxaay6Y35lI/AAAAAAAACVg/0xAX-I-SEIk3KELhntYl4oK5eXesZE6aQCLcBGAsYHQ/s1600/Nivin%2Bpauly-Love-Action-Drama-Malayalam-Movie%2B%25286%2529.jpg';
+const mohanlalDiwali =
+    'https://cdn.britannica.com/99/155499-050-864E622E/oil-lamps.jpg';

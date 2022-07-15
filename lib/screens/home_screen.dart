@@ -1,8 +1,10 @@
+import 'package:facebook_ui_clone/constants/constants.dart';
 import 'package:facebook_ui_clone/sections/header_button_section.dart';
 import 'package:facebook_ui_clone/sections/room_section.dart';
 import 'package:facebook_ui_clone/sections/status_section.dart';
 import 'package:facebook_ui_clone/sections/story_section.dart';
 import 'package:facebook_ui_clone/widgets/appbar_button.dart';
+import 'package:facebook_ui_clone/widgets/post_card.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -52,6 +54,24 @@ class HomeScreen extends StatelessWidget {
             color: Colors.grey.shade300,
           ),
           StorySection(),
+          Divider(
+            thickness: 10,
+            color: Colors.grey.shade300,
+          ),
+          PostCard(
+            postManAvatar: mohanlal,
+            postMan: 'Mohanlal',
+            postedDate: '5h',
+            postTitle: 'Happy Diwaali!!',
+            post: mohanlalDiwali,
+            likes: '10',
+            comments: '1',
+            shares: '2',
+          ),
+          Divider(
+            thickness: 10,
+            color: Colors.grey.shade300,
+          ),
         ],
       ),
     );

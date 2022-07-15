@@ -1,25 +1,28 @@
 import 'package:flutter/material.dart';
 
+Widget headerButton({
+  required IconData icon,
+  required String buttonName,
+  required VoidCallback onPressed,
+  required Color color,
+}) {
+  return TextButton.icon(
+    onPressed: onPressed,
+    icon: Icon(
+      icon,
+      color: color,
+    ),
+    label: Text(
+      buttonName,
+      style: TextStyle(
+        color: Colors.black,
+      ),
+    ),
+  );
+}
+
 class HeaderButtonSection extends StatelessWidget {
   const HeaderButtonSection({Key? key}) : super(key: key);
-
-  Widget headerButton({
-    required IconData icon,
-    required String buttonName,
-    required VoidCallback onPressed,
-    required Color color,
-  }) {
-    return TextButton.icon(
-      onPressed: onPressed,
-      icon: Icon(
-        icon,
-        color: color,
-      ),
-      label: Text(
-        buttonName,
-      ),
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
