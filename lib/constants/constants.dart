@@ -18,3 +18,13 @@ const nivinsPost =
     'https://1.bp.blogspot.com/-e2RFIMzV6DY/Xxaay6Y35lI/AAAAAAAACVg/0xAX-I-SEIk3KELhntYl4oK5eXesZE6aQCLcBGAsYHQ/s1600/Nivin%2Bpauly-Love-Action-Drama-Malayalam-Movie%2B%25286%2529.jpg';
 const mohanlalDiwali =
     'https://cdn.britannica.com/99/155499-050-864E622E/oil-lamps.jpg';
+const mammootyBheeshma =
+    'https://www.mirchi9.com/wp-content/uploads/2022/04/OTT-Watch-for-Weekend-Gangster-Drama-1.jpg';
+const zendayaHomeComing =
+    'https://media.vanityfair.com/photos/595f95a8bbf8842bfabbf64f/master/pass/zendaya-spiderman-homecoming.jpg';
+const chrisBrownFrnd =
+    'https://cdn.bigfm.de/sites/default/files/styles/medium_square_400/public/scald/image/Chris-Brown-TEASER_4.jpeg?itok=HpN3IZGn';
+const daBaby =
+    'https://media.pitchfork.com/photos/5c7d4c1b4101df3df85c41e5/1:1/w_800,h_800,c_limit/Dababy_BabyOnBaby.jpg';
+const juiceWrld =
+    'https://cdns-images.dzcdn.net/images/artist/32458864045f1087652738e10bcdf74b/500x500.jpg';

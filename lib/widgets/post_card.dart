@@ -1,4 +1,3 @@
-import 'package:facebook_ui_clone/constants/constants.dart';
 import 'package:facebook_ui_clone/sections/like_cmnt_share_section.dart';
 import 'package:facebook_ui_clone/widgets/avatar.dart';
 import 'package:flutter/material.dart';
@@ -121,8 +120,10 @@ class PostCard extends StatelessWidget {
                 SizedBox(
                   width: 40,
                 ),
-                Text(
-                  '${shares}K Shares',
+                Flexible(
+                  child: Text(
+                    '${shares}K Shares',
+                  ),
                 ),
               ],
             ),

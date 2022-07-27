@@ -3,6 +3,7 @@ import 'package:facebook_ui_clone/sections/header_button_section.dart';
 import 'package:facebook_ui_clone/sections/room_section.dart';
 import 'package:facebook_ui_clone/sections/status_section.dart';
 import 'package:facebook_ui_clone/sections/story_section.dart';
+import 'package:facebook_ui_clone/sections/suggestion_section.dart';
 import 'package:facebook_ui_clone/widgets/appbar_button.dart';
 import 'package:facebook_ui_clone/widgets/post_card.dart';
 import 'package:flutter/material.dart';
@@ -71,6 +72,35 @@ class HomeScreen extends StatelessWidget {
           Divider(
             thickness: 10,
             color: Colors.grey.shade300,
+          ),
+          PostCard(
+            postManAvatar: mammooty,
+            postMan: 'Mammooty',
+            postedDate: '1 day ago',
+            postTitle: 'Bheeshma',
+            post: mammootyBheeshma,
+            likes: '20',
+            comments: '5',
+            shares: '3',
+          ),
+          Divider(
+            thickness: 10,
+            color: Colors.grey.shade300,
+          ),
+          SuggestionSection(),
+          Divider(
+            thickness: 10,
+            color: Colors.grey.shade300,
+          ),
+          PostCard(
+            postManAvatar: zendaya,
+            postMan: 'Zendaya',
+            postedDate: '4h',
+            postTitle: 'Home coming',
+            post: zendayaHomeComing,
+            likes: '200',
+            comments: '50',
+            shares: '26',
           ),
         ],
       ),
